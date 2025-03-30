@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dalisay</title>
+    <link rel="stylesheet" href="styles.css"
 </head>
 <body>
 
 
+    <div class="header-container">
     <div class="header">
-        <h1>Dalisay</h1>
+        <h1 class="logo">Dalisay</h1>
     <div>
-        <ul>
-            <li><a href="#about">About</a></li>
+        <ul class="nav">
+            <!-- <li><a href="#about">About</a></li> -->
             <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+             <li><a href="#qoutes">Qoutes</a></li>
             <li><a href="#contacts">Contacts</a></li>
         </ul>
+    </div>
+    </div>
+
+    <div class="hero-container">
+        <section class="hero">
+            <h1>Crafting timeless pieces with pure dedication</h1>
+            <p>Fine woodworking and bespoke carpentry,
+                where tradition meets contemporary design.</p>
+            <button type="button" class="btn1">Start a Project</button>
+            <!-- <button type="button" class="btn2">View Our Work</button> -->
+        </section>
+        <img src="images/woodworker.jpg"
+        alt="man-in-white-polo-shirt-working-on-wooden-sculpture-3680454"
+        width="600" height="350">
     </div>
     </div>
 
 
     <div class="container">
 
-        <section class="hero">
-            <h1>Crafting timeless pieces with pure dedication</h1>
-            <p>Fine woodworking and bespoke carpentry,
-                where tradition meets contemporary design.</p>
-            <button>Start a Project</button>
-            <button>View Our Work</button>
-        </section>
-
-        <section id="about">
+        <!-- <section id="about">
             <h2>About Us</h2>
             <p>At Dalisay, we take pride in our dedication to quality and craftsmanship.
             Every piece we create is made with passion, precision, and durability in mind.
             </p>
-        </section>
+        </section> -->
 
         <section id="services">
             <h2>Our Services</h2>
@@ -71,7 +80,7 @@
             </ul>
         </section>
 
-        <section id="portfolio">
+        <!-- <section id="portfolio">
             <h2>Our Selected Works</h2>
             <p>Take a look at some of our recent projects.</p>
 
@@ -89,6 +98,13 @@
                 <img src="" alt="Outdoor Pergola">
                 <p>Beautifully designed outdoor pergola, ideal for enhancing your garden or patio space.</p>
             </div>
+        </section> -->
+
+        <section id="qoutes">
+            <div class="qoutes-text">
+                <p>"The only way to do great work is to love what you do."</p>
+                <p>- Steve Jobs</p>
+            </div>
         </section>
 
         <section id="contacts">
@@ -96,18 +112,18 @@
                 <h2>Start Your Project</h2>
                 <p>Share your vision with us, and let's create something extraordinary together.</p>
             </div>
-            <div>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea name="Message" rows="4" placeholder="Tell us about your project"></textarea>
-                <button>Send Message</button>
-            </div>
+            <!-- <div class="form-container">
+                <input type="text" placeholder="Name" class="form-box">
+                <input type="email" placeholder="Email" class="form-box">
+                <textarea name="Message" rows="4" placeholder="Tell us about your project" class="form-box"></textarea>
+            </div> -->
+            <button type="button" class="btn2">Send Message</button>
         </section>
 
     </div>
 
     <div class="footer">
-        <p>&copy; 2025 Dalisay. All Rights Reserved.</p>
+        <p>Copyright &copy; 2025 Dalisay. All Rights Reserved.</p>
     </div>
 
 

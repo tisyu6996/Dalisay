@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF3E0;
+    color: #4A3221;
+}
+
+/*Global*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+}
+.hero-container, #services{
+    padding: 30px 20px;
+    margin: 20px;
+}
+
+
+/*Header*/
+.header-container{
+    background-color: #8B4513;
+    color: #ffffff;
+}
+ .header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: space-between;
+    padding: 0 36px;
+}
+ .header .logo{
+    flex: 1;
+    font-size: 24px;
+} 
+.header .nav{
+    flex-basis: content;
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 18px;
+}
+.nav li{
+    flex: 1;
+
+}
+.nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Hero*/
+.hero-container{
+    display: flex;
+}
+.hero{
+    flex: 1;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero p{
+    font-size: 18px;
+}
+.btn1, .btn2{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px
+}
+.btn1{
+    background-color: #D2691E;
+    border: none;
+    color: #fff;
+}
+.btn2{
+    background-color: #4A3221;
+    border: none;
+    color: #fff;
+}
+/* .btn1:hover{
+    border: 1px #D2691E solid;
+    background-color: #FAF3E0;
+    border-radius: 50px;
+    color: #D2691E;
+} */
+
+/*Services*/
+#services ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+
+}
+#services li{
+    flex: 1;
+    background-color: #FDFBF7;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+/*Qoutes*/
+#qoutes{
+    background-color: #C19A6B;
+}
+.qoutes-text{
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*Contacts*/
+#contacts{
+    background-color: #D2691E;
+    padding: 30px;
+    margin: 20px;
+}
+/* .form-container{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.form-box{
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #D2691E;
+} */
+
+/*Footer*/
+.footer{
+    background-color: #8B4513;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
