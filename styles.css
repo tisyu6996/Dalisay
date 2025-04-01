@@ -15,15 +15,16 @@ main{
     margin: 0;
     padding: 0;
     max-width: 1440px;
+    height: auto;
 }
-.hero, #about, #services, #portfolio, #contacts{
-    height: 510px;
+#about, #services, #portfolio, #contacts{
+    height: 600px
 }
 h2{
     font-size: 36px;
     text-align: center;
     margin: 0;
-    padding: 36px 0;
+    padding: 24px 0;
 }
 ul{
     margin: 0;
@@ -65,13 +66,13 @@ nav ul{
 }
 /*Hero*/
 .hero-container{
-    background-color: #A67B5B;
+    background-color: #D2691E;
     margin: 0;
-    padding: 16px;
+    padding: 52px;
     color: #FAF3E0;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
 
 }
 .hero{
@@ -91,16 +92,19 @@ nav ul{
 .hero span{
     color: #4A3221;
 }
-img{
+.hero-container img{
+    flex: 0 1 auto;
     width: 720px;
     height: 450px;
-    align-self: center;
+    border: 1px #4A3221 solid;
+    box-shadow: 3px 6px 9px #4A3221;
 }
 .btn1, .btn2{
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 50px;
     border: none;
+    box-shadow: 1.5px 3px 6px #4A3221;
 }
 .btn1, .btn2:hover{
     background-color: #723F32;
@@ -113,15 +117,18 @@ img{
 /*About*/
 #about .container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 90px;
     background-color: #D2691E;
     color: #FAF3E0;
     border-radius: 36px;
+    height: 480px;
 }
 #about p{
     flex: 1;
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
     padding: 16px 24px;
 }
@@ -139,7 +146,7 @@ img{
 }
 #services ul{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
     padding: 20px 0;
     margin: 0 90px;
@@ -162,9 +169,12 @@ img{
     font-size: 24px;
     font-weight: 900;
 }
+#services p{
+    font-size: 20px;
+}
 /*Portfolio*/
 #portfolio{
-    background-color: #D2691E;
+    background-color: #A67B5B;
 }
 #portfolio>p{
     margin: 0;
@@ -177,21 +187,35 @@ img{
     flex-wrap: wrap;
     gap: 30px;
     margin: 0 90px;
+    padding: 20px 0;
+}
+#portfolio .showcase-box{
+    flex: 1;
+    background-color: #D2691E;
+    border: 1px #4A3221 solid;
+    border-radius: 30px;
+    box-shadow: 3px 6px 9px #4A3221;
+    padding: 15px;
 }
 #portfolio .showcase{
-    flex: 1;
-    background-color: #A67B5B;
-    border: 1px black solid;
-    border-radius: 30px;
-    box-shadow: 3px 6px 9px #723F32;
+    display: block;
+
 }
 .showcase img{
-    border: 1px black solid;
-    width: 300px;
-    height: 270px;
+    border: 1px #4A3221 solid;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
 }
 .showcase p{
     font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+#portfolio .showcase-box:hover{
+    background-color: #8B4513;
+    color: #FAF3E0;
 }
 
 
